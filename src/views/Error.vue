@@ -1,12 +1,15 @@
 <template>
   <div class="child">
-    <h1>Hello There!</h1>
-    <p>Let's buy some insurance. It is going to take only a few steps.</p>
+    <h1>Ooops</h1>
+    <p class="text-center">
+      Your age is over our accepted limit.<br>
+      We are sorry but we cannot insure you now.
+    </p>
     <router-link
-      to="/information"
+      to="/"
       class="button"
     >
-      Start
+      OK :(
     </router-link>
   </div>
 </template>
@@ -15,7 +18,6 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  components: {
-  },
+  components: {},
 })
 </script>
